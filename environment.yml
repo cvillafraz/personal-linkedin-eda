@@ -20,4 +20,5 @@ dependencies:
   - pyprojroot
   - python=3.8.6
   - seaborn
-  
+  - nltk
+  - wordcloud

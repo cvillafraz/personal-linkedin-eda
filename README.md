@@ -1,6 +1,6 @@
 # Personal LinkedIn EDA
 
-An exploratory data analysis of my personal data from LinkedIn
+An exploratory data analysis of my personal data from LinkedIn, including my certifications, connections, messages and search history. [Here](https://www.cirov.com/post/analyzing-my-personal-linkedin-data) is my full article about this analysis.
   
 ## Installation guide
 
@@ -18,21 +18,15 @@ Please read [install.md](install.md) for details on how to set up this project.
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries.
-    │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    │                         `1.0-cvillafraz-data-preprocessing`.
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures         <- Generated graphics and figures to be used in reporting.
     │
     ├── environment.yml    <- The requirements file for reproducing the analysis environment.
     │
-    ├── .here              <- File that will stop the search if none of the other criteria
-    │                         apply when searching head of project.
     │
     ├── setup.py           <- Makes project pip installable (pip install -e .)
     │                         so personal_linkedin_eda can be imported.
@@ -42,14 +36,6 @@ Please read [install.md](install.md) for details on how to set up this project.
         │
         ├── data           <- Scripts to download or generate data.
         │   └── make_dataset.py
-        │
-        ├── features       <- Scripts to turn raw data into features for modeling.
-        │   └── build_features.py
-        │
-        ├── models         <- Scripts to train models and then use trained models to make
-        │   │                 predictions.
-        │   ├── predict_model.py
-        │   └── train_model.py
         │
         ├── utils          <- Scripts to help with common tasks.
             └── paths.py   <- Helper functions to relative file referencing across project.
